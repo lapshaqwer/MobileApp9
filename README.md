@@ -98,9 +98,3 @@
 6. Динамическое ContextMenu: создать ContextMenu программно в onCreateContextMenu, добавляя пункты через menu.add(...).
 7. Возвращаемое значение методов: boolean; true — событие обработано, дальнейшая обработка не нужна.
 8. Определение элемента для ContextMenu: использовать getItemId() у MenuItem или сохранять выбранный View в поле при вызове onCreateContextMenu через параметр ContextMenu.ContextMenuInfo.
-
-Рисунок 32 - Ошибка формата Email
-
-![Скриншот 33](images/33.png)
-
-Рисунок 33 - Вывод ошибок в Logcat
